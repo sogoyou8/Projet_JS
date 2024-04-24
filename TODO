@@ -1,0 +1,10 @@
+'score reinitiliase a la fin d une partie | check'
+game over ( collisison entre la position des aliens et du vaisseau) ✅
+ajouter pouvoir tombant des ennemies ✅
+pouvoir mettre pause et reprendre (pour l instant juste pause qui marche)
+faire un chrono
+ennemi d une autre categorie
+'faire glisser le fond d image du jeu | check'
+faire un niveau avec les ennemi qui bouge
+'page de demarrage | check'
+ faire une fonction win si on survit 3 min
