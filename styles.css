@@ -1,0 +1,184 @@
+body{
+    margin:0;
+    padding:0;
+    /*background:black;*/
+    /*background:  url(https://media1.giphy.com/media/sJvz8Qnfly3BOuotGx/200w.gif?cid=6c09b952kuwo834riy7060m3mexjnte1z3w4rbsvgawgyidx&ep=v1_gifs_search&rid=200w.gif&ct=g) no-repeat;
+    */width:100%;
+    text-align:center;
+    position: relative; /* Allow for positioning of the GIF */  
+    background-image: url(https://media1.giphy.com/media/sJvz8Qnfly3BOuotGx/200w.gif?cid=6c09b952kuwo834riy7060m3mexjnte1z3w4rbsvgawgyidx&ep=v1_gifs_search&rid=200w.gif&ct=g);  
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+#gameBoard{
+    width:80%;
+    height:80%;
+    background: url(background-blue.png);
+    animation: scroll-background 5s linear infinite;
+    
+    position:absolute;            
+    top: 50%;                        
+    transform: translate(-50%, -50%) ;
+    border:2px dotted white
+}
+/*.game {
+  width: 800px;
+  height: 600px;
+  background: url(../img/background-blue.png);
+  animation: scroll-background 5s linear infinite;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}*/
+
+
+/*h1 {
+    border: whitesmoke;
+  color: whitesmoke;
+  padding: 10px;
+}
+h2 {
+    border: whitesmoke;
+  color: whitesmoke;
+  padding: 10px;
+}*/
+h1 {
+  font-family: 'Press Start 2P', cursive; /* Example retro-futuristic font */
+  color: white; /* Bright red */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+  padding: 10px 20px; /* Add padding around the text */
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Example sans-serif font */
+  color: white; /* Bright cyan */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+  padding: 5px 10px; /* Less padding than h1 */
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    padding: 23.75px;
+    font-size: 25px;
+  }
+  
+  footer {
+    text-align: center;
+    display: flex;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    bottom: 0 ;
+    font-size: 25px;
+  }
+  .wrap {
+    display: flex; /* Convert wrap to flex container */
+    justify-content: center; /* Center content horizontally within wrap */
+  }
+/*footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Ensures the footer stretches across the entire width */
+/*}*/
+  
+  @keyframes scroll-background {
+    from { background-position: 0% 0%; }
+    to { background-position: 0% 500%; }
+  }
+
+  /*.game-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+  }*/
+
+  backIndex
+
+  .homepage-button {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white;
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+  }
+  
+  /*.homepage-button:hover { 
+    background-color: #3e8e41;
+  }*/
+  
+  .congratulations {
+    display: none;
+    position: absolute;
+    background: #c7a526;
+    color: white;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    animation: pop-in 1s;
+    margin: 150px;
+  }
+  
+  .GameOver {
+    
+    display: none;
+    position: absolute;
+    background: #31042d;
+    color: white;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    animation: pop-in 1s;
+    margin: 150px;
+  }
+
+  .pause {
+    
+    display: none;
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin: 250px;
+  }
+  
+  .btn {
+    border: 2px solid #36bbf5;
+    border-radius: 3px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(
+      to bottom,
+      #fff 0%,
+      #fff 49%,
+      #f5f5f5 50%,
+      #eee 100%
+    );
+    padding: 10px 40px;
+    font: 14px sans-serif;
+  }
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: translate(0, -100px);
+    }
+    10% {
+      opacity: 1;
+    }
+    50% {
+      transform: translate(0, 30px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  

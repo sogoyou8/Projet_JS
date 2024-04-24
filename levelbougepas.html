@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Mon Space invader</title>
+    </head>
+    <body>
+
+    <canvas id="gameBoard" ></canvas>
+
+    <div class="wrap">
+        <header>Niveau Bouge pas</header>
+        <div class="congratulations">
+            <h1>Congratulations!</h1>
+            <h2>You won the game</h2>
+            <button class="btn" onclick="window.location.reload()">Restart</button>
+          </div>
+          <div class="GameOver">
+            <h1>GAME OVER</h1>
+            <h2>You lost the game</h2>
+            <button class="btn" onclick="window.location.reload()">Restart</button>
+          </div>
+        
+          <footer>left/right = move , spacebar = shot , p = pause , shotgreen = lifeUp , shotyellow = lifeDown
+            <a href="index.html"><button class="retour-button">Retour</button></a>
+        </footer>
+      </div>
+
+
+        
+    <script src="appbougepas.js" type="module" ></script>
+    </body>
+
+</html>
